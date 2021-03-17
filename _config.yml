@@ -35,7 +35,6 @@ languages: ['en', 'hu']
 default_lang: 'en'
 exclude_from_localization: ["javascript", "images", "css", "README.md"]
 parallel_localization: true
-lang_from_path: true
 
 # Build settings
 theme: minima
