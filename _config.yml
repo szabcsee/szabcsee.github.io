@@ -31,11 +31,6 @@ permalink: /:title
 twitter_username: szabcsee
 github_username:  szabcsee
 
-languages: ['en', 'hu']
-default_lang: 'en'
-exclude_from_localization: ["javascript", "images", "css", "README.md"]
-parallel_localization: true
-
 # Build settings
 theme: minima
 
