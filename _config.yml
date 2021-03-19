@@ -32,6 +32,7 @@ twitter_username: szabcsee
 github_username:  szabcsee
 
 # Language settings
+# default languages: en
 languages: ['en', 'hu']
 exclude_from_localizations: ["javascript", "images", "css"]
 default_locale_in_subfolder: true
@@ -40,7 +41,6 @@ default_locale_in_subfolder: true
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
