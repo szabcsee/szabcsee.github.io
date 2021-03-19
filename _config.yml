@@ -31,10 +31,16 @@ permalink: /:title
 twitter_username: szabcsee
 github_username:  szabcsee
 
+# Language settings
+languages: ['en', 'hu']
+exclude_from_localizations: ["javascript", "images", "css"]
+default_locale_in_subfolder: true
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.
