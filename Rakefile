@@ -28,4 +28,5 @@ task :publish => [:generate] do
 
     Dir.chdir pwd
   end
+  Dir.delete(File.join(Dir.home, ".tmp"))
 end
